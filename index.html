@@ -8,29 +8,34 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+    <img src="logo.jpg" alt="Logo">
     <ul>
         <li>Home</li>
         <li>Products</li>
     </ul>
-    <h1>Walk Detroit</h1>
-    <img src="detroitwalk.jpg" alt="people walking">
-    <p>Walking in Detroit in front of the RenCen</p>
-    
-    <h2>Testimonials</h2>
-    <p><em>It's such an enjoyable experience to walk in Detroit.</em> -Customer #1</p>
-    <p><em>I'm getting fit and having a good time with some new friends.</em> -Customer #2</p>
-
-    <form>
-        Name:<br>
-        <input type="text"> <br><br>
-        Email Address: <br>
-        <input type="text"> <br><br>
-        Question: <br>
-        <input type="text"> <br><br>
-        <input type=submit>
-
-    </form>
-
+    <div class="flex-grid">
+            <div class="col">
+            <h1>Walk Detroit</h1>
+            <img src="detroitwalk.jpg" alt="people walking">
+            <p>Walking in Detroit in front of the RenCen</p>
+        </div>
+        <div class="col">
+            <h2>Testimonials</h2>
+            <p><em>It's such an enjoyable experience to walk in Detroit.</em> -Customer #1</p>
+            <p><em>I'm getting fit and having a good time with some new friends.</em> -Customer #2</p>
+        </div>
+        <div class="col">
+            <form>
+                Name:<br>
+                <input type="text"> <br><br>
+                Email Address: <br>
+                <input type="text"> <br><br>
+                Question: <br>
+                <input type="text"> <br><br>
+                <input type=submit>
+            </form>
+        </div>
+    </div>
     <script src="scripts/script.js"></script>
 </body>
 </html>
